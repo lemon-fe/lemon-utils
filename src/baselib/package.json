@@ -1,0 +1,14 @@
+{
+  "name": "baselib-le",
+  "version": "0.0.2",
+  "description": "baselib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "baselib"
+  ],
+  "author": "aweakcoder",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "figurelib-le",
+  "version": "0.0.1",
+  "description": "figurelib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "figurelib"
+  ],
+  "author": "aweakcoder",
+  "license": "MIT"
+}

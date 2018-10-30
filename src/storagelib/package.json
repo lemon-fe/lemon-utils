@@ -1,0 +1,14 @@
+{
+  "name": "storagelib-le",
+  "version": "0.0.2",
+  "description": "storagelib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "storagelib"
+  ],
+  "author": "aweakcoder",
+  "license": "MIT"
+}
