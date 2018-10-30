@@ -1,10 +1,11 @@
 {
   "name": "lemon-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utils for project",
   "main": "lib/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "pub": "npm publish"
   },
   "devDependencies": {
     "babel-cli": "6.x.x",
@@ -26,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lemon-fe/lemon-util.git"
+    "url": "git+https://github.com/lemon-fe/lemon-utils.git"
   },
   "keywords": [
     "util",
@@ -35,9 +36,9 @@
   "author": "lemon-fe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lemon-fe/lemon-util/issues"
+    "url": "https://github.com/lemon-fe/lemon-utils/issues"
   },
-  "homepage": "https://github.com/lemon-fe/lemon-util#readme",
+  "homepage": "https://github.com/lemon-fe/lemon-utils#readme",
   "dependencies": {
     "js-cookie": "^2.2.0"
   }
