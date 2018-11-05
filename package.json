@@ -1,6 +1,6 @@
 {
   "name": "lemon-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "utils for project",
   "main": "lib/index.js",
   "scripts": {

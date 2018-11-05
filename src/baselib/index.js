@@ -27,9 +27,16 @@ export default {
   UA: handleUA(),
   // 获取url参数
   getUrlParam: function (name) {
-    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); // 构造一个含有目标参数的正则表达式对象
-    var r = window.location.search.substr(1).match(reg);  // 匹配目标参数
-    if (r != null) return r[2];
+    try{
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); // 构造一个含有目标参数的正则表达式对象
+      var r = window.location.search.substr(1).match(reg);  // 匹配目标参数
+      if (r != null) return r[2];
+
+      r = window.location.hash.split("?")[1].match(reg);  // 匹配目标参数
+      if (r != null) return r[2];
+    }catch(e){
+      
+    }
     return null; // 返回参数值
   },
   // 获取js文件
